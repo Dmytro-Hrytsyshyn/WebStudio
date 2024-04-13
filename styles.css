@@ -68,7 +68,7 @@ color: #2e2f42;
 .section-hero{
     width: 1440px;
     height: 600px;
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
       
 .main-text-hero { 
@@ -123,7 +123,7 @@ color: #2e2f42;
 /* ============SECTION TEAM */
 
 .section-team{
-    background: #f4f4fd;
+    background-color:#f4f4fd;
 
 }
 
@@ -186,7 +186,7 @@ color: #2e2f42;
 /* ====================================PAGE FOOTER============ */
 
 .page-footer{
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .logotype-bottom {
