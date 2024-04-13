@@ -131,7 +131,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 }
@@ -163,7 +162,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 }
@@ -184,7 +182,6 @@ text-transform: capitalize;
     color: #434455;
 }
 /* ====================================PAGE FOOTER============ */
-
 .page-footer{
     background-color: #2e2f42;
 }
@@ -213,4 +210,3 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
