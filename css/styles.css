@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color:#ffffff;
+    color: #434455
 }
 
 ul,
@@ -16,20 +17,23 @@ a {
     text-decoration: none;
 }
 
+address {
+    font-style: normal
+}
 /*====================================HEADER STYLES============ */
 
-.logotype-top {
+.logotype {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color: #4d5ae5;
 }
 
-.logotype-web {
-    color: #4d5ae5;
+.logotype-top {
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -43,7 +47,7 @@ color: #2e2f42;
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #4D5AE5
+    color:#404BBF;
 }
 
 
@@ -59,7 +63,7 @@ color: #2e2f42;
 
 .address-link:hover,
 .address-link:focus {
-    color: #4D5AE5
+    color: #404BBF;
 }
 
 
@@ -74,7 +78,7 @@ color: #2e2f42;
 .main-text-hero { 
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;    
@@ -130,10 +134,11 @@ color: #2e2f42;
 .main-text-team {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .name-team-item {
@@ -154,7 +159,7 @@ color: #2e2f42;
 
 .team-list-item{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: #fff;
+background: #ffffff;
 }
 
 /* =================SECTION PORTFOLIO */
@@ -162,10 +167,11 @@ background: #fff;
 .main-text-portfolio{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .name-portfolio-item{
@@ -189,15 +195,21 @@ color: #2e2f42;
     background-color: #2e2f42;
 }
 
-.logotype-bottom {
+.logotype {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color: #4d5ae5;
 }
+
+.logotype-bottom{
+    color: #f4f4fd;
+}
+
+
 
 .paragraph-footer {
     font-family: "Roboto", sans-serif;
