@@ -93,8 +93,6 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border-radius: 4px;
-    padding: 16px 32px;
     width: 169px;
     height: 56px;
     background-color: #4D5AE5;
@@ -158,7 +156,6 @@ text-transform: capitalize;
 }
 
 .team-list-item{
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #ffffff;
 }
 
