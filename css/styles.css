@@ -130,6 +130,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
+text-align: center;
+
 }
 
 .name-team-item {
@@ -161,6 +163,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
+text-align: center;
 }
 
 .name-portfolio-item{
