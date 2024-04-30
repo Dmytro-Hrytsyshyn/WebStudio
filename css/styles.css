@@ -299,7 +299,10 @@ margin-bottom: 72px;
 background: #ffffff;
 width: calc((100% - 72px) / 4);
 border-radius: 0 0 4px 4px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+box-shadow: 
+0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 }
 
@@ -335,6 +338,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
+    
+
 }
 
 .container-info-portfolio{
@@ -369,6 +374,7 @@ row-gap: 48px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    
 }
 
 .paragraph-portfolio-item{
@@ -379,27 +385,44 @@ row-gap: 48px;
     color: #434455;
 }
 
-.image-portfolio{
+
+
+
+
+.portfolio-overlay{
     position: relative;
     overflow: hidden; 
 }
 
-.ingredient-overlay{
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background-color: #404BBF;  
- color:floralwhite ;
- transform: translateY(100%);
- transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.portfolio-overlay-paragraph{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+padding-top: 40px;
+padding-right: 32px;
+padding-left: 32px;
 }
 
-.portfolio-list-item:hover .ingredient-overlay{
- transform: translateY(0%); 
- box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+
+.portfolio-overlay:hover .portfolio-overlay-paragraph{
+    transform: translateY(0%);
 }
+
+
+
+
+
 
 .ingredient-overlay-paragraph{
     margin-top: 40px;
@@ -410,8 +433,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-
 }
+
+
+
+
+
 
 
 /* ====================================PAGE FOOTER============ */
@@ -432,7 +459,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
 }
-
 
 .logotype-bottom{
     color: #f4f4fd;
@@ -455,18 +481,12 @@ margin-bottom: 16px;
     align-items: baseline;
 }
 
-
 .container-footer{
 display: flex;
 }
 
 .container-footer-logop{
     margin-right: 120px;
-}
-
-.social-links-footer{
-    display: flex;
-    gap: 16px;
 }
 
 .social-link-icoms:hover
@@ -485,7 +505,7 @@ display: flex;
 }
 .social-links-footer{
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
     }
     
