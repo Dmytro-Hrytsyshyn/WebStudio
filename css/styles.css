@@ -418,9 +418,8 @@ row-gap: 48px;
     padding: 40px 32px;
 }
 
-.portfolio-overlay:hover .portfolio-overlay-paragraph{
-    transform: translateY(0%);
-    
+.portfolio-list-item:hover .portfolio-overlay-paragraph {
+    transform: translateY(0%);    
 }
 
 .ingredient-overlay-paragraph{
