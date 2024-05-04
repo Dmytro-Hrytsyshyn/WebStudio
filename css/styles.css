@@ -527,8 +527,12 @@ margin-bottom: 16px;
     
     .social-icoms-footer{
         fill:#F4F4FD;
+    }
+    .social-icoms-telegram{
         margin-left: 16px;
     }
+    
+
 
     .button-footer{
         display: flex;
