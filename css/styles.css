@@ -583,6 +583,10 @@ color: #fff;
 margin-right: 23px;
 }
 
+.form-subscribe-footer:focus{
+    outline: transparent;
+}
+
 .form-button-input-container{
     display: flex;
 }
