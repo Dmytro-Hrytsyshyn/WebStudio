@@ -527,12 +527,11 @@ margin-bottom: 16px;
     
     .social-icoms-footer{
         fill:#F4F4FD;
+        margin-left: 16px;
     }
-
 
     .button-footer{
         display: flex;
-        gap: 16px;
         justify-content: center;
         align-items: center;
         min-width: 165px;
