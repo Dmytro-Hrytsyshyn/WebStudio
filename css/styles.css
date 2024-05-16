@@ -1,5 +1,3 @@
-
-
 h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
     margin-bottom: 0;
@@ -189,8 +187,6 @@ HEADER
             width:100% ;
             border-radius: 2px;
         }
-        
-    
     }
 
     @media screen and (min-width: 1158px) {
@@ -212,7 +208,6 @@ HEADER
             letter-spacing: 0.02em;
             color: #434455;
          } 
-    
     }
 
     /* ========================================================================================================================================================
@@ -311,7 +306,6 @@ HEADER
     .button-hero{
         margin-top: 48px;
     }
-
 }
 
     @media (min-resolution:192dpi) {
@@ -320,7 +314,6 @@ HEADER
             url(../images/interactive_images/hero-desktop-img@2.jpg);
     }
     }
-
 
     /* ========================================================================================================================================================
     SECTION BENEFITS  
@@ -346,9 +339,7 @@ HEADER
             clip-path: inset(100%);
             clip: rect(0 0 0 0);
             overflow: hidden;
-          }
-
-     
+        }
 
       .benefits-name-list{
         text-align: center;
@@ -376,26 +367,20 @@ HEADER
   
 
 @media screen and (min-width: 768px){
-    .section-benefits{}
-
     .benefits-name-list{
         text-align: start;
-    
-
     }
     .benefits-list{
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 72px;
-     
      }
 
      .benefits-list-item{
         width:calc((100% - 24px) / 2);
        
      }
-
 }
 
 @media screen and (min-width: 1158px) {
@@ -772,7 +757,7 @@ margin-bottom: 16px;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 165px;                        /* min-width: 165px; */
+            width: 165px;                      
             height: 40px; 
             border-radius: 4px;
             background: #4d5ae5;
@@ -815,7 +800,7 @@ margin-bottom: 16px;
             background-color: transparent;
             border: 1px solid #ffffff;
             border-radius: 4px;
-            width: 288px;                  /* width: 264px; */
+            width: 288px;                  
             height: 40px;
             padding-left: 16px;
             padding-top:8px ;
@@ -853,7 +838,7 @@ margin-bottom: 16px;
 
 
     .logotype {
-    display: block;              /* display: inline-block; */
+    display: block;             
  
     }
 
@@ -917,7 +902,7 @@ margin-bottom: 16px;
     }
 
     .form-subscribe-footer{
-        width: 264px;                  /* width: 264px; */
+        width: 264px;               
     }
 
     .paragraph-footer {  
@@ -1074,9 +1059,8 @@ outline: transparent;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);}
-
-
+    color: rgba(46, 47, 66, 0.4);
+}
 
 .review-form-icon-container{
   position: relative;
@@ -1141,8 +1125,6 @@ outline: transparent;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .review-form-button{
     display: block;
     margin-right: auto;
@@ -1167,7 +1149,6 @@ outline: transparent;
 .review-form-button:focus{
     background-color: #404BBF;
 }
-
 
 @media screen and (min-width: 768px) {
     .modal{
@@ -1278,9 +1259,4 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
-}
-
-
-
-        
-        
+}     
