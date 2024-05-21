@@ -122,6 +122,10 @@ HEADER
         padding: 24px 0;
         }
 
+        .logotype-top{
+            margin-right: 120px;
+        }
+
         .menu{
             display: flex;
             gap: 40px;
