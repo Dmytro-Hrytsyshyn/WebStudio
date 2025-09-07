@@ -7,7 +7,7 @@
   - Flexbox for layout
   - Colors and typography based on the design
   - Section and component-based structure
-- No JavaScript – pure **HTML + CSS**
+- **HTML + CSS**
 
 ## 🛠 Technologies Used
 - **HTML5**
