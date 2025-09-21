@@ -17,4 +17,4 @@
 ## ✅ How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dmytro-hrytsyshyn/goit-markup-hw-02.git
+   git clone https://github.com/Dmytro-Hrytsyshyn/WebStudio.git
